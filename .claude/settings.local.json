@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(node -e:*)",
+      "Bash(npx:*)",
+      "Bash(echo:*)",
+      "Bash(export PATH:*)",
+      "Bash(node --version:*)",
+      "Bash(\"/mnt/c/Program Files/nodejs/node.exe\" --version)",
+      "Bash(\"/mnt/c/Program Files/nodejs/node.exe\" -e \"\nconst fs = require\\(''fs''\\);\nconst { createCanvas } = require\\(''canvas''\\);\n\")",
+      "Bash(\"/mnt/c/Program Files/nodejs/node.exe\" scripts/generate-icons.js)",
+      "Bash(gh auth status:*)",
+      "Bash(gh.exe auth status)",
+      "Bash(powershell.exe:*)",
+      "Bash(\"/mnt/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Ale waste collection schedule app\n\nNext.js app with TypeScript and Tailwind CSS that shows waste pickup\nschedules for addresses in Ale kommun. Includes PWA support, offline\ncaching, dark mode, and notification reminders.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git.exe init -b main)",
+      "Bash(git.exe add:*)",
+      "Bash(git.exe commit:*)"
+    ]
+  }
+}
